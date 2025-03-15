@@ -1,4 +1,6 @@
 package com.example.mvvm2
 
-class QuoteViewModel {
+import androidx.lifecycle.ViewModel
+
+class QuoteViewModel: ViewModel() {
 }
