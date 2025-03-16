@@ -24,17 +24,17 @@ class MainActivity : AppCompatActivity() {
         }
 
 //        countViewModel = ViewModelProvider(this).get(CountViewModel::class.java) older way to get viewmodel
-        cvm = ViewModelProvider(this)[CountViewModel::class.java]
+//        cvm = ViewModelProvider(this)[CountViewModel::class.java]
 
-        val tvCount = findViewById<TextView>(R.id.tvCount)
-        val btnCount  = findViewById<Button>(R.id.btnCount)
-
-        cvm.count.observe(this){ value ->
-            tvCount.text = value.toString()
-        }
-
-        btnCount.setOnClickListener{
-            cvm.increment()
-        }
+//        val tvCount = findViewById<TextView>(R.id.tvCount)
+//        val btnCount  = findViewById<Button>(R.id.btnCount)
+//
+//        cvm.count.observe(this){ value ->
+//            tvCount.text = value.toString()
+//        }
+//
+//        btnCount.setOnClickListener{
+//            cvm.increment()
+//        }
     }
 }
