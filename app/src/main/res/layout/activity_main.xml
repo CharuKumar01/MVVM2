@@ -13,6 +13,7 @@
             android:id="@+id/tvQuote"
             android:layout_width="256dp"
             android:layout_height="wrap_content"
+            android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.561"
@@ -22,8 +23,9 @@
 
         <TextView
             android:id="@+id/tvAuthor"
-            android:layout_width="39dp"
-            android:layout_height="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/btnFetch"
             app:layout_constraintEnd_toEndOf="@+id/tvQuote"
             app:layout_constraintHorizontal_bias="1.0"
