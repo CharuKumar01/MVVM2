@@ -2,19 +2,16 @@ package com.example.mvvm2
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.widget.Button
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.mvvm2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    lateinit var bind: ActivityMainBinding
+    private lateinit var bind: ActivityMainBinding
     private lateinit var qvm: QuoteViewModel
 
     @SuppressLint("SetTextI18n")
